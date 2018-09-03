@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/menu/menu",
+    "pages/houseDetail/houseDetail",
+    "pages/regist/regist",
+    "pages/personal/personal",
+    "pages/mycollect/mycollect",
+    "pages/addHouseIfo/addHouseIfo",
+    "pages/myhouse/myhouse",
+    "pages/myhouse/myhouseIfo/myhouseIfo",
+    "pages/test/test",
+    "pages/houseIfo/houseZRent/houseZRent",
+    "pages/houseIfo/houseHRent/houseHRent",
+    "pages/houseIfo/houseSell/houseSell"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "诚睿房产",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":60
+  },
+  "tabBar": {
+    "list": [{
+      "selectedIconPath": "images/houseChoose.png",
+      "iconPath": "images/houseNotChoose.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+     
+    },
+    {
+      "selectedIconPath": "images/ZrentChoose.png",
+      "iconPath": "images/ZrentNotChoose.png",
+      "pagePath": "pages/houseIfo/houseZRent/houseZRent",
+      "text": "整租"
+    },
+    {
+      "selectedIconPath": "images/HrentChoose.png",
+      "iconPath": "images/HrentNotChoose.png",
+      "pagePath": "pages/houseIfo/houseHRent/houseHRent",
+      "text": "合租"
+    },
+    {
+      "selectedIconPath": "images/personChoose.png",
+      "iconPath": "images/personNotChoose.png",
+      "pagePath": "pages/personal/personal",
+      "text": "个人中心"
+    }]
+  }
+}
