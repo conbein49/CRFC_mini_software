@@ -28,9 +28,8 @@ Page({
       })
       var _this = this
       wx.request({
-        url: this.data.serverUrl+'weixin/getHouseIfoById.action',
+        url: this.data.serverUrl+'weixin/houseInfo/' + this.data.houseID,
         data:{
-          houseID:this.data.houseID,
           userID:getApp().globalData.userIfo.userID
         },
         success:function(res){

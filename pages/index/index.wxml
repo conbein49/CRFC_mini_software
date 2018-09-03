@@ -37,8 +37,6 @@
                 <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">{{item.houselc}}楼</view>
               </view>
             </view>
-
-
           </navigator>
         </view>
       </view>

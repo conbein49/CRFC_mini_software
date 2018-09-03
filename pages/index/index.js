@@ -53,7 +53,7 @@ Page({
         region:region
       })
       wx.request({
-        url: that.data.serverUrl + 'weixin/getHouseIfo.action',
+        url: that.data.serverUrl + 'weixin/recommendHouseList',
         data: {
           province: that.data.userProvince,
           city: that.data.userCity,
